@@ -9,18 +9,108 @@
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
+      /* overflow: hidden; */
     }
 
     img {
       width: 30dvw;
 
     }
+
+    .presentation {
+      margin: 0;
+      padding: 10px;
+      margin-bottom: 50px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+    }
+
+    p {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+      text-align: justify;
+      margin: 0;
+      padding: 15px;
+    }
+
+    .flow-div {
+      height: 40dvh;
+    }
+
+    .flow {
+      width: 100%;
+      height: 100%;
+      border: 3px solid #333;
+      border-radius: 5px;
+      padding: 5px;
+      scale: 0.7;
+    }
+
+    details {
+      padding: 0px 15px;
+    }
+
+    summary:focus {
+      outline: none;
+    }
   </style>
 </head>
 
-<body>
+<body style="height: 100dvh;">
   <img src="./logo.png" alt="Logo da Neurync">
   <p>Bem-vindo!</p>
+  <h1>Apresentação</h1>
+  <div class="presentation">
+    <p>
+      O Neurync, neuro sincronização traduzido do inglês, é um aplicativo que visa auxiliar os neurodivergentes a
+      sincronizarem-se com sujeitos neurotípicos, isto é, através deste software, buscar inseri-los em diferentes
+      meios sociais onde há uma barreira devido à sua singularidade. Ainda que mantendo o foco no ambiente
+      escolar,
+      essa inclusão promete promover uma melhor integração civil do indivíduo, consequentemente gerando um
+      convívio
+      mais harmonioso e agradável entre as pessoas, enriquecimento da diversidade de muitas maneiras, e uma grande
+      melhora na noção de empatia e aceitação da sociedade considerada neurotípica. Levando em conta a existência
+      de
+      muitas particularidades neste âmbito, o Neuryinc permite uma personalização própria do usuário, ou
+      responsáveis,
+      onde estes poderão registrar informações importantes e únicas do neurodivergente, podendo ser cruciais para
+      a
+      resolução de alguma crise que venha a ocorrer com ele, tendo em vista que terá à disposição, um procedimento
+      escrito de como agir diante de várias situações que possam estressá-lo, além de uma aba de comunicação não
+      verbal em caso da pessoa não gostar de usar a fala para tal ato.
+    </p>
+  </div>
+
+  <h1>Fluxogramas</h1>
+  <h2>Fluxograma do Servidor</h2>
+  <a target="_blank" href="./docs/diagrams/flowcharts/svg/server-flow.svg">Acesse aqui</a>
+  <details>
+    <summary>Visualizar</summary>
+    <iframe class="flow" src="./docs/diagrams/flowcharts/svg/server-flow.svg" frameborder="0"></iframe>
+  </details>
+
+  <h2>Fluxograma do Totem</h2>
+  <a target="_blank" href="./docs/diagrams/flowcharts/svg/totem-flow.svg">Acesse aqui</a>
+  <details>
+    <summary>Visualizar</summary>
+    <iframe class="flow" src="./docs/diagrams/flowcharts/svg/totem-flow.svg" frameborder="0"></iframe>
+  </details>
+
+  <h2>Fluxograma da Web</h2>
+  <a target="_blank" href="./docs/diagrams/flowcharts/svg/web-flow.svg">Acesse aqui</a>
+  <details>
+    <summary>Visualizar</summary>
+    <iframe class="flow" src="./docs/diagrams/flowcharts/svg/web-flow.svg" frameborder="0"></iframe>
+  </details>
+
+  <h2>Fluxograma do Mobile</h2>
+  <a target="_blank" href="./docs/diagrams/flowcharts/svg/mobile-flow.sv">Acesse aqui</a>
+  <details>
+    <summary>Visualizar</summary>
+    <iframe class="flow" src="./docs/diagrams/flowcharts/svg/mobile-flow.svg" frameborder="0"></iframe>
+  </details>
 </body>
 
 </html>
