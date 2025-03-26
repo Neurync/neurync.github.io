@@ -22,7 +22,9 @@
       padding: 10px;
       margin-bottom: 50px;
       background-color: #f9f9f9;
-      border-radius: 8px;
+      border-radius: 3px;
+      padding: 18px;
+      border: 1px solid #333;
     }
 
     p {
@@ -32,7 +34,6 @@
       color: #333;
       text-align: justify;
       margin: 0;
-      padding: 15px;
     }
 
     .flow-div {
@@ -52,8 +53,17 @@
       padding: 0px 15px;
     }
 
+    summary {
+      cursor: pointer;
+    }
+
     summary:focus {
       outline: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px 0px 15px 0px;
     }
   </style>
 </head>
@@ -61,6 +71,19 @@
 <body style="height: 100dvh;">
   <img src="./logo.png" alt="Logo da Neurync">
   <p>Bem-vindo!</p>
+
+  <h1>Autores</h1>
+  <ul class="presentation">
+    <li>Heloísa Fernandes Cano</li>
+    <li>Henry Lucas Antunes</li>
+    <li>Lucas Tompson Oliveira</li>
+    <li>Marcus André Alves de Siqueira</li>
+    <li>Pedro Gabriel Nascimento</li>
+    <li>Rafael Santiago da Silva</li>
+    <li>Renato Florencio</li>
+  </ul>
+  </details>
+
   <h1>Apresentação</h1>
   <div class="presentation">
     <p>
@@ -111,6 +134,8 @@
     <summary>Visualizar</summary>
     <iframe class="flow" src="./docs/diagrams/flowcharts/svg/mobile-flow.svg" frameborder="0"></iframe>
   </details>
+
+  <footer>&copy; 2025</footer>
 </body>
 
 </html>
