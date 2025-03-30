@@ -316,6 +316,7 @@
 			"id": "pointer:pointer",
 			"typeName": "pointer",
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"x": -239.83614387576245,
 			"y": -198.18407955978603,
 			"lastActivityTimestamp": 1743344211624,
@@ -324,6 +325,11 @@
 			"y": 815.9043088886826,
 			"lastActivityTimestamp": 1743349656755,
 >>>>>>> 7a1bf52 (adição do fluxograma da WEB no arquivo .tldr)
+=======
+			"x": 712.9999999999998,
+			"y": 825,
+			"lastActivityTimestamp": 1743350586658,
+>>>>>>> f3ace30 (Adição do fluxograma no arquivo tldr)
 			"meta": {}
 		},
 		{
@@ -1155,10 +1161,16 @@
 			"typeName": "shape"
 		},
 		{
+<<<<<<< HEAD
 			"x": 1040.3382484558713,
 			"y": -1688.3806995762966,
 			"z": 0.6497178719185593,
 >>>>>>> 7a1bf52 (adição do fluxograma da WEB no arquivo .tldr)
+=======
+			"x": 3859.778099493169,
+			"y": 780.7148947183591,
+			"z": 0.10842747350331351,
+>>>>>>> f3ace30 (Adição do fluxograma no arquivo tldr)
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2456,12 +2468,16 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"selectedShapeIds": [],
 =======
 			"selectedShapeIds": [
 				"shape:tBQz_4N1nM8mW60a8mFE2"
 			],
 >>>>>>> 7a1bf52 (adição do fluxograma da WEB no arquivo .tldr)
+=======
+			"selectedShapeIds": [],
+>>>>>>> f3ace30 (Adição do fluxograma no arquivo tldr)
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
@@ -4791,9 +4807,9 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:QaYnXUzPPFoab9y5bIKqR"
+				"shape:pkglerAI6Y9h5TY_51Ajd"
 			],
-			"hoveredShapeId": "shape:QaYnXUzPPFoab9y5bIKqR",
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -5471,16 +5487,13 @@
 			"stylesForNextShape": {},
 =======
 			"stylesForNextShape": {
-				"tldraw:arrowheadEnd": "none",
-				"tldraw:font": "mono",
-				"tldraw:geo": "rectangle",
-				"tldraw:size": "m"
+				"tldraw:fill": "solid"
 			},
 >>>>>>> 7a1bf52 (adição do fluxograma da WEB no arquivo .tldr)
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "grabbing",
+				"type": "default",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -5491,10 +5504,14 @@
 				"x": 0,
 				"y": 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"w": 1263.2000732421875,
 				"h": 707.2000122070312
 =======
 				"w": 1278,
+=======
+				"w": 978,
+>>>>>>> f3ace30 (Adição do fluxograma no arquivo tldr)
 				"h": 654
 >>>>>>> 7a1bf52 (adição do fluxograma da WEB no arquivo .tldr)
 			},
@@ -5505,7 +5522,7 @@
 				false
 			],
 			"zoomBrush": null,
-			"isGridMode": true,
+			"isGridMode": false,
 			"isPenMode": false,
 			"chatMessage": "",
 			"isChatting": false,
@@ -5517,9 +5534,9 @@
 			"devicePixelRatio": 1,
 >>>>>>> 7a1bf52 (adição do fluxograma da WEB no arquivo .tldr)
 			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
+			"isHoveringCanvas": false,
 			"openMenus": [],
-			"isChangingStyle": false,
+			"isChangingStyle": true,
 			"isReadonly": false,
 			"meta": {},
 			"duplicateProps": null,
@@ -5575,7 +5592,7 @@
 				"geo": "rectangle",
 				"color": "black",
 				"labelColor": "black",
-				"fill": "none",
+				"fill": "solid",
 				"dash": "solid",
 				"size": "m",
 				"font": "sans",
@@ -6103,10 +6120,16 @@
 		},
 		{
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			"x": 701.3423165590932,
 			"y": -778.2454805676689,
 			"z": 3.8238045743884057,
+=======
+			"x": 100.00000000000023,
+			"y": -616,
+			"z": 1,
+>>>>>>> f3ace30 (Adição do fluxograma no arquivo tldr)
 			"meta": {},
 			"id": "camera:page:PlNGnx6yBT8W_9tXVHcpC",
 			"typeName": "camera"
