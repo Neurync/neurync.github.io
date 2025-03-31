@@ -1,0 +1,40 @@
+img.logo {
+	width: 3rem;
+}
+
+#main-header {
+	background-color: var(--primary-color);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 3rem;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+	padding: 0.5rem 0px;
+}
+
+#main-header > .title-navbar {
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: var(--white);
+	font-weight: 600;
+	margin-left: 1.5rem;
+}
+
+.nav-links {
+	display: flex;
+	gap: 1rem;
+	margin-right: 1.5rem;
+}
+
+.nav-links > a {
+	color: var(--white);
+	text-decoration: none;
+}
+
+.nav-links > a:hover {
+	text-decoration: underline;
+}

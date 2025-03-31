@@ -1,0 +1,16 @@
+@import url('./reset.css');
+@import url('./fonts.css');
+
+:root {
+	--primary-color: #48cdac;
+	--secondary-color: #efb41f;
+
+	--gray: #666666;
+	--black: #0a0a0a;
+	--white: #fcffff;
+}
+
+body {
+	font-family: 'Amiko', sans-serif;
+	scroll-behavior: smooth;
+}

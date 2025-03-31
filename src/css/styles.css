@@ -1,0 +1,53 @@
+@import url('./globals.css');
+@import url('./partials/header.css');
+@import url('./partials/footer.css');
+
+main {
+	padding: 3rem 5rem;
+}
+
+.presentation {
+	font-size: 1.2rem;
+	line-height: 2rem;
+	text-align: center;
+}
+
+section,
+article {
+	margin-bottom: 1rem;
+}
+
+section > h2 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+article > h3 {
+	font-size: 1.3rem;
+	margin-bottom: 0.8rem;
+	font-weight: 600;
+}
+
+#docs ul {
+	list-style-type: disc;
+	display: flex;
+	flex-direction: column;
+	gap: 0.7rem;
+}
+
+#authors > ul {
+	display: flex;
+	gap: 0.5rem;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+	main {
+		padding: 3rem 1rem;
+	}
+
+	#main-header > .nav-links {
+		display: none;
+	}
+}
